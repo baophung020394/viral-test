@@ -1,0 +1,24 @@
+.country-flag-only > .iti--allow-dropdown > input {
+  display: none;
+}
+.country-flag-only > .iti--allow-dropdown > .iti__country-container > button > .iti__selected-country-primary > .iti__arrow {
+  display: none;
+}
+.country-flag-only > .iti--allow-dropdown > .iti__country-container > button > .iti__selected-country-primary > .iti__flag {
+  scale: 1.4;
+}
+
+.country-flag-only > .iti--allow-dropdown > .iti__country-container > button > .iti__selected-country-primary {
+  scale: 1.4;
+  padding: 0;
+  margin: 0;
+  height: fit-content;
+}
+
+.country-flag-only > .iti--allow-dropdown > .iti__country-container > button > .iti__selected-country-primary {
+  width: fit-content;
+}
+
+.country-flag-only > .iti--allow-dropdown > .iti__country-container > button  {
+  pointer-events: none;
+}

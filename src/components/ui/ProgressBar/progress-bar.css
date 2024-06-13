@@ -1,0 +1,30 @@
+.outer {
+    background-color: #FEE4E2;
+    height: 18px;
+    border-radius: 20px;
+    width: 345px;
+    overflow: hidden;
+}
+
+@media screen and (min-width: 768px) {
+    .outer {
+        width: 723px;
+    }
+}
+
+.progress {
+    background-color: #D92D20;
+    height: 100%;
+    position: relative;
+    transition: width 800ms ease-in-out;
+}
+
+.triangle {
+    background: D92D20;
+    width: 18px;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    border-right: 18px solid #FEE4E2;
+    border-top: 20px solid transparent;
+}
